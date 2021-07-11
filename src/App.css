@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.tic-tac-toe {
+  text-align: center;
+}
+
+.grid {
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ttt-grid {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.result {
+  margin-top: 30px;
+}
+
+.winner {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  background: blue;
+  color: white;
+}
